@@ -28,7 +28,7 @@ public class DbConnection {
 System.out.println("Connecting with url="+url);
 try {
 Connection conn= DriverManager.getConnection(url);
-System.out.println("Successgully obtrained connection!");
+System.out.println("Successfully obtrained connection!");
 return conn;
 }catch(SQLException e){
 throw new DbException(e);
